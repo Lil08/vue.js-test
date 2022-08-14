@@ -16,22 +16,30 @@
         <div class="col"><h1>Images</h1></div>
     </div>
     <div class="row">
-        <div class="col-md-4">
+        <div class="col-md-5">
             <div class="form-group">
-                <label for="search">Find your images</label>
-                <input type="text" class="form-control" id="search" >
+                <label for="search">Find your image</label>
+                <input type="text" class="form-control" id="search">
             </div>
-            <ul class="list-group">
+            <ul class="list-group ">
                 <li class="list-group-item list-group-item-action">1</li>
                 <li class="list-group-item list-group-item-action">2</li>
                 <li class="list-group-item list-group-item-action">3</li>
             </ul>
-            <div class="col-md-8">
-                <div class="col-md-5">
-                    <h2>Name</h2>
-                    <img src="" alt="">
-                </div>
-                <div class="col-md-7"></div>
+        </div>
+        <div class="col-md-7 ">
+            <div class="row">
+            <div class="col-md-5">
+                <h2>Name</h2>
+                <img src="images/1.jpg" alt="" width="270px">
+            </div>
+            <div class="col-md-7 mt-3">
+                <h5> Image details </h5>
+                <p>Description image</p>
+                <p>Price</p>
+                <button class="btn btn-outline-success mr-3">Show price</button>
+                <button class="btn btn-primary">Buy</button>
+            </div>
             </div>
         </div>
     </div>
